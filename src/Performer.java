@@ -1,6 +1,7 @@
 public class Performer {
 	private final String unionID;
 
+	// constructor
 	public Performer(int unionID) {
 		this.unionID = String.format("ID-%s", unionID);
 	}

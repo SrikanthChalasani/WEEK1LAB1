@@ -6,6 +6,7 @@ public class Vocalist extends Performer {
 
 	private Random random = new Random();
 
+	// enum
 	private enum KEYS {
 		G, H, I, J
 	};

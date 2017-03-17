@@ -5,6 +5,7 @@ public class Dancer extends Performer {
 	private String style;
 	private Random random = new Random();
 
+	// enum
 	private enum Styles {
 		TAP, SALSA, HIPHOP, JAZZ
 	};
