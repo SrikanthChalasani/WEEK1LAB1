@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class Dancer extends Performer {
 	private String style;
+	/*% does this really need to be available for all methods in this class? %*/
 	private Random random = new Random();
 
 	// enum

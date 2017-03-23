@@ -1,5 +1,6 @@
 public class Audition1 {
-
+	
+	/*% Usually a good practice to have only one main method per project %*/
 	// main method
 	public static void main(String[] args) {
 
@@ -14,6 +15,7 @@ public class Audition1 {
 		performers[5] = new Dancer(++unionID);
 		performers[6] = new Vocalist(++unionID);
 
+		/*% this would work if dancer and vocalist simply overrode displayerPerformerID %*/
 		/*
 		 * for (Performer performer : performers) {
 		 * performer.DisplayPerformerID(); }

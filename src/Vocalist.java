@@ -2,11 +2,13 @@
 import java.util.Random;
 
 public class Vocalist extends Performer {
+	/*% use the camel case naming convention for variables and methods %*/
 	private String vocalkey;
 
 	private Random random = new Random();
 
 	// enum
+	/*% only use all uppercase if a variable is final, enums should follow class naming conventions %*/
 	private enum KEYS {
 		G, H, I, J
 	};
@@ -39,7 +41,8 @@ public class Vocalist extends Performer {
 		}
 		}
 	}
-
+	
+	/*% Stay away from void return types - will make it easier to test methods if they return something %*/
 	public void displayVocalist() {
 		System.out.printf("%s - %s %n", "I sing in the key of", getVocalkey(),
 				getunionID());
